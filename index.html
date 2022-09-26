@@ -363,10 +363,26 @@
       </section>
     </section>
 
-    <section class="mt-20">
+    <section class="mt-20 lg:w-[60%] lg:mx-auto lg:mt-0">
       <h1 class="text-2xl px-4">Last news</h1>
 
-      <div class="flex flex-col px-3">
+      <div class="flex flex-col px-3 lg:grid lg:grid-cols-3">
+        <div class="py-5 border-b lg:col-span-2 row-span-4">
+          <h2 class="font-light py-2">Reports</h2>
+          <p>
+            Customers consider insurers as preferred providers for physical and
+            financial wellness advice
+          </p>
+          <p>20 Sep 2022</p>
+        </div>
+        <div class="py-5 border-b">
+          <h2 class="font-light py-2">Reports</h2>
+          <p>
+            Customers consider insurers as preferred providers for physical and
+            financial wellness advice
+          </p>
+          <p>20 Sep 2022</p>
+        </div>
         <div class="py-5 border-b">
           <h2 class="font-light py-2">Reports</h2>
           <p>
@@ -416,40 +432,42 @@
       </section>
     </section>
 
-    <section>
+    <section class="lg:w-[60%] lg:mx-auto">
       <h1 class="text-2xl px-3 py-5">Inside Stories</h1>
-      <div class="mx-4 shadow-lg rounded-lg my-3">
-        <img
-          src="./assets/Capgemini_Inside-Stories_Authors-of-change.webp"
-          class="rounded-md"
-        />
-        <p class="font-light px-3 py-4">Environment</p>
-        <h4 class="font-bold px-3">Turning ambition into action</h4>
-        <p class="font-light px-3 pb-4">
-          Embedding net zero targets at Capgemini UK
-        </p>
-      </div>
-      <div class="mx-4 shadow-lg rounded-lg my-3">
-        <img
-          src="./assets/Capgemini_Inside-Stories_Authors-of-change.webp"
-          class="rounded-md"
-        />
-        <p class="font-light px-3 py-4">Environment</p>
-        <h4 class="font-bold px-3">Turning ambition into action</h4>
-        <p class="font-light px-3 pb-4">
-          Embedding net zero targets at Capgemini UK
-        </p>
-      </div>
-      <div class="mx-4 shadow-lg rounded-lg my-3">
-        <img
-          src="./assets/Capgemini_Inside-Stories_Authors-of-change.webp"
-          class="rounded-md"
-        />
-        <p class="font-light px-3 py-4">Environment</p>
-        <h4 class="font-bold px-3">Turning ambition into action</h4>
-        <p class="font-light px-3 pb-4">
-          Embedding net zero targets at Capgemini UK
-        </p>
+      <div class="lg:grid lg:grid-cols-3">
+        <div class="mx-4 shadow-lg rounded-lg my-3 lg:col-span-2 lg:row-span-2">
+          <img
+            src="./assets/Capgemini_Inside-Stories_Authors-of-change.webp"
+            class="rounded-md"
+          />
+          <p class="font-light px-3 py-4">Environment</p>
+          <h4 class="font-bold px-3">Turning ambition into action</h4>
+          <p class="font-light px-3 pb-4">
+            Embedding net zero targets at Capgemini UK
+          </p>
+        </div>
+        <div class="mx-4 shadow-lg rounded-lg my-3">
+          <img
+            src="./assets/Capgemini_Inside-Stories_Authors-of-change.webp"
+            class="rounded-md"
+          />
+          <p class="font-light px-3 py-4">Environment</p>
+          <h4 class="font-bold px-3">Turning ambition into action</h4>
+          <p class="font-light px-3 pb-4">
+            Embedding net zero targets at Capgemini UK
+          </p>
+        </div>
+        <div class="mx-4 shadow-lg rounded-lg my-3">
+          <img
+            src="./assets/Capgemini_Inside-Stories_Authors-of-change.webp"
+            class="rounded-md"
+          />
+          <p class="font-light px-3 py-4">Environment</p>
+          <h4 class="font-bold px-3">Turning ambition into action</h4>
+          <p class="font-light px-3 pb-4">
+            Embedding net zero targets at Capgemini UK
+          </p>
+        </div>
       </div>
       <section class="flex justify-center my-6">
         <button
@@ -476,12 +494,14 @@
     </section>
 
     <section>
-      <section class="w-full">
+      <section
+        class="w-full lg:flex lg:flex-row-reverse lg:items-center lg:h-fit"
+      >
         <section class="mt-5 relative flex flex-col justify-center w-full">
           <img
             src="./assets/Data-for-Net-Zero_2880X1800.webp"
             alt="image1"
-            class="w-full"
+            class="w-full lg:h-96 lg:object-cover"
           />
 
           <div
@@ -524,7 +544,7 @@
         </section>
 
         <div
-          class="bg-violet px-5 shadow-2xl flex flex-col justify-between -mt-10 py-14 pb-7 w-full text-white h-96"
+          class="bg-violet lg:h-96 lg:-mt-0 lg:px-20 px-5 shadow-2xl flex flex-col justify-between -mt-10 py-14 pb-7 w-full text-white h-96"
         >
           <div>
             <h2 class="text-xl py-1">
@@ -562,7 +582,9 @@
       </section>
     </section>
 
-    <footer class="bg-gray-200 mt-10 py-10 px-5 flex flex-col gap-5">
+    <footer
+      class="bg-gray-200 mt-10 py-10 px-5 flex flex-col gap-5 lg:grid lg:grid-cols-2 lg:px-56"
+    >
       <div class="border-b border-gray-500 py-4 flex flex-col gap-3">
         <img
           src="https://prod.ucwe.capgemini.com/wp-content/themes/capgemini2020/assets/images/mobile-logo.svg"
@@ -595,8 +617,8 @@
         />
       </div>
 
-      <div class="text-center">
-        <p>2022 Capgemini. All rights reserved.</p>
+      <div class="text-center col-span-2">
+        <p class="text-center">2022 Capgemini. All rights reserved.</p>
       </div>
     </footer>
   </body>
