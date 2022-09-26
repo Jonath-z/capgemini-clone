@@ -4,7 +4,600 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
     <title>Capgemini | clone</title>
   </head>
-  <body></body>
+  <body>
+    <header class="h-96 lg:h-screen w-full relative">
+      <img
+        src="./assets/Capgemini_Inside-Stories_Authors-of-change.webp"
+        class="h-full w-full object-cover object-center"
+      />
+
+      <nav
+        class="fixed top-0 left-0 w-full flex justify-between items-center p-2 bg-gradient-to-b from-black via-transparent to-transparent h-fit"
+      >
+        <img src="./assets/logo-white.svg" />
+        <div class="flex gap-3 items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth="{1.5}"
+            stroke="currentColor"
+            class="w-6 h-6 text-white font-bold"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth="{1.5}"
+            stroke="currentColor"
+            class="w-6 h-6 text-white font-bold"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </div>
+      </nav>
+      <div
+        class="mx-auto flex justify-center items-center lg:justify-start lg:mx-32"
+      >
+        <div
+          class="flex flex-col p-7 bg-primary-blue/90 rounded-md shadow-md z-30 absolute lg:w-[50%] lg:-mt-80 -mt-3 h-64 justify-center w-[80%] mx-auto text-white"
+        >
+          <h1 class="text-2xl font-bold">AUTHORS OF CHANGE</h1>
+          <p class="text-xl py-4">Making the world more inclusive with words</p>
+        </div>
+      </div>
+    </header>
+
+    <section
+      class="mt-56 relative px-3 flex flex-col justify-center lg:flex-row-reverse lg:items-center lg:w-[80%] lg:mx-auto"
+    >
+      <img
+        src="./assets/WLHIR-Cover-image.webp"
+        alt="image1"
+        class="h-96 object-cover"
+      />
+
+      <div
+        class="bg-white p-5 w-[90%] mx-auto -mt-10 lg:-mt-0 lg:-mr-14 h-56 shadow-md"
+      >
+        <div>
+          <p class="text-2xl">World Life and Health Insurance Report 2022</p>
+          <p class="py-5 font-light">
+            The Wellness Revolution: How insurers are driving growth with
+            customer well-being
+          </p>
+        </div>
+        <div class="flex justify-end items-end px-5">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth="{1.5}"
+            stroke="currentColor"
+            class="w-6 h-6 flex items-end justify-end"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+            />
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <h1 class="text-2xl py-8 px-5 lg:mx-16">Latest insight</h1>
+    <section
+      class="mt-5 relative flex flex-col justify-center lg:flex-row lg:items-center lg:w-[90%] lg:mx-auto"
+    >
+      <img
+        src="./assets/Innovation-Nation-Summer-2022-edition.webp"
+        alt="image1"
+        class="h-96 w-[1600px] object-cover"
+      />
+
+      <div
+        class="bg-white p-5 w-[90%] mx-auto -mt-10 lg:-mt-0 lg:-ml-20 h-fit shadow-md"
+      >
+        <div>
+          <p class="font-light">Innovation Notice</p>
+          <p class="text-2xl">Innovation Nation | Summer 2022</p>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="lg:flex lg:flex-row-reverse lg:my-20 lg:w-[80%] lg:ml-auto mr-24"
+    >
+      <section
+        class="mt-5 relative flex flex-col justify-center lg:col-span-2 lg:flex-row-reverse lg:items-center lg:w-full"
+      >
+        <img
+          src="./assets/Data-for-Net-Zero_2880X1800.webp"
+          alt="image1"
+          class="lg:h-96"
+        />
+
+        <div
+          class="bg-white p-5 w-[90%] mx-auto -mt-10 lg:-mt-0 lg:-mr-56 lg:ml-10 lg:h-64 h-fit shadow-md"
+        >
+          <div>
+            <p class="font-light">Capgemini Research Institute</p>
+            <p class="text-2xl">Data for Net Zero</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="xl:flex xl:flex-col xl:justify-between">
+        <section class="my-5 p-5 bg-primary-blue text-white mx-3 lg:h-full">
+          <p class="font-light">Capgemini Research Institute</p>
+          <h2 class="text-2xl py-3">
+            Reflect, rethink, reconsider: Why food waste is everybody’s problem
+          </h2>
+        </section>
+        <section class="flex justify-center my-6 xl:hidden">
+          <button
+            class="flex justify-center items-center px-5 py-2 border border-black rounded-3xl gap-5"
+          >
+            More Insight
+            <span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="{1.5}"
+                stroke="currentColor"
+                class="w-6 h-6 flex items-end justify-end"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+                /></svg
+            ></span>
+          </button>
+        </section>
+      </section>
+    </section>
+
+    <section class="relative h-screen">
+      <h1 class="text-2xl py-4 px-4 lg:px-32">Recent Client stories</h1>
+      <section
+        class="absolute w-full overflow-x-auto flex gap-5 lg:h-[40rem] scrollbar-hide"
+      >
+        <section class="w-full">
+          <section
+            class="mt-5 relative flex flex-col justify-center w-full lg:relative lg:w-screen lg:h-96"
+          >
+            <img
+              src="https://prod.ucwe.capgemini.com/wp-content/uploads/2022/08/ArcelorMittal-client-banner.jpg?w=2880&quality=90"
+              alt="image1"
+              class="lg:w-screen lg:h-[500px] object-cover"
+            />
+
+            <div
+              class="bg-white p-5 w-fit rounded-full mx-auto -mt-10 h-fit shadow-md"
+            >
+              <div class="flex justify-center items-center gap-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="{1.5}"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M15.75 19.5L8.25 12l7.5-7.5"
+                  />
+                </svg>
+                <p class="h-4 w-4 border bg-black rounded-full"></p>
+                <p class="h-4 w-4 border rounded-full"></p>
+                <p class="h-4 w-4 border rounded-full"></p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="{1.5}"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                  />
+                </svg>
+              </div>
+            </div>
+          </section>
+
+          <div
+            class="bg-white mx-5 px-5 shadow-2xl -mt-10 py-14 pb-7 w-96 lg:absolute lg:top-32 lg:w-[45rem] lg:rounded-md"
+          >
+            <h2 class="text-xl py-1 lg:my-10">
+              ArcelorMittal uses data and analytics to pursue energy efficiency
+            </h2>
+            <p class="w-80 lg:w-full">
+              As part of a consortium with Capgemini Engineering and with the
+              financial support of the French Environment and Energy Management
+              Agency, ArcelorMittal utilizes new models and analytics to review
+              waste heat at its industrial sites as well as potential solutions
+              to recover this lost energy
+            </p>
+            <img
+              src="./assets/Logo_Capgemini_Engineering.svg"
+              class="lg:py-4"
+            />
+
+            <section class="flex justify-center my-6">
+              <button
+                class="flex justify-center items-center px-5 py-2 border border-black rounded-3xl gap-5"
+              >
+                More Insight
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="{1.5}"
+                    stroke="currentColor"
+                    class="w-6 h-6 flex items-end justify-end"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+                    /></svg
+                ></span>
+              </button>
+            </section>
+          </div>
+        </section>
+        <section class="w-full">
+          <section
+            class="mt-5 relative flex flex-col justify-center w-full lg:relative lg:w-screen lg:h-96"
+          >
+            <img
+              src="./assets/Data-for-Net-Zero_2880X1800.webp"
+              alt="image1"
+              class="lg:w-screen lg:h-[500px] object-cover"
+            />
+
+            <div
+              class="bg-white p-5 w-fit rounded-full mx-auto -mt-10 h-fit shadow-md"
+            >
+              <div class="flex justify-center items-center gap-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="{1.5}"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M15.75 19.5L8.25 12l7.5-7.5"
+                  />
+                </svg>
+                <p class="h-4 w-4 border bg-black rounded-full"></p>
+                <p class="h-4 w-4 border rounded-full"></p>
+                <p class="h-4 w-4 border rounded-full"></p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="{1.5}"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                  />
+                </svg>
+              </div>
+            </div>
+          </section>
+
+          <div
+            class="bg-white mx-5 px-5 shadow-2xl -mt-10 py-14 pb-7 w-96 lg:absolute lg:top-32 lg:w-[45rem] lg:rounded-md"
+          >
+            <h2 class="text-xl py-1 lg:my-10">
+              ArcelorMittal uses data and analytics to pursue energy efficiency
+            </h2>
+            <p class="w-80 lg:w-full">
+              As part of a consortium with Capgemini Engineering and with the
+              financial support of the French Environment and Energy Management
+              Agency, ArcelorMittal utilizes new models and analytics to review
+              waste heat at its industrial sites as well as potential solutions
+              to recover this lost energy
+            </p>
+            <img
+              src="./assets/Logo_Capgemini_Engineering.svg"
+              class="lg:py-4"
+            />
+
+            <section class="flex justify-center my-6">
+              <button
+                class="flex justify-center items-center px-5 py-2 border border-black rounded-3xl gap-5"
+              >
+                More Insight
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="{1.5}"
+                    stroke="currentColor"
+                    class="w-6 h-6 flex items-end justify-end"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+                    /></svg
+                ></span>
+              </button>
+            </section>
+          </div>
+        </section>
+      </section>
+    </section>
+
+    <section class="mt-20">
+      <h1 class="text-2xl px-4">Last news</h1>
+
+      <div class="flex flex-col px-3">
+        <div class="py-5 border-b">
+          <h2 class="font-light py-2">Reports</h2>
+          <p>
+            Customers consider insurers as preferred providers for physical and
+            financial wellness advice
+          </p>
+          <p>20 Sep 2022</p>
+        </div>
+        <div class="py-5 border-b">
+          <h2 class="font-light py-2">Reports</h2>
+          <p>
+            Customers consider insurers as preferred providers for physical and
+            financial wellness advice
+          </p>
+          <p>20 Sep 2022</p>
+        </div>
+        <div class="py-5 border-b">
+          <h2 class="font-light py-2">Reports</h2>
+          <p>
+            Customers consider insurers as preferred providers for physical and
+            financial wellness advice
+          </p>
+          <p>20 Sep 2022</p>
+        </div>
+      </div>
+      <section class="flex justify-center my-6">
+        <button
+          class="flex justify-center items-center px-5 py-2 border border-black rounded-3xl gap-5"
+        >
+          Sell all news
+          <span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="{1.5}"
+              stroke="currentColor"
+              class="w-6 h-6 flex items-end justify-end"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+              /></svg
+          ></span>
+        </button>
+      </section>
+    </section>
+
+    <section>
+      <h1 class="text-2xl px-3 py-5">Inside Stories</h1>
+      <div class="mx-4 shadow-lg rounded-lg my-3">
+        <img
+          src="./assets/Capgemini_Inside-Stories_Authors-of-change.webp"
+          class="rounded-md"
+        />
+        <p class="font-light px-3 py-4">Environment</p>
+        <h4 class="font-bold px-3">Turning ambition into action</h4>
+        <p class="font-light px-3 pb-4">
+          Embedding net zero targets at Capgemini UK
+        </p>
+      </div>
+      <div class="mx-4 shadow-lg rounded-lg my-3">
+        <img
+          src="./assets/Capgemini_Inside-Stories_Authors-of-change.webp"
+          class="rounded-md"
+        />
+        <p class="font-light px-3 py-4">Environment</p>
+        <h4 class="font-bold px-3">Turning ambition into action</h4>
+        <p class="font-light px-3 pb-4">
+          Embedding net zero targets at Capgemini UK
+        </p>
+      </div>
+      <div class="mx-4 shadow-lg rounded-lg my-3">
+        <img
+          src="./assets/Capgemini_Inside-Stories_Authors-of-change.webp"
+          class="rounded-md"
+        />
+        <p class="font-light px-3 py-4">Environment</p>
+        <h4 class="font-bold px-3">Turning ambition into action</h4>
+        <p class="font-light px-3 pb-4">
+          Embedding net zero targets at Capgemini UK
+        </p>
+      </div>
+      <section class="flex justify-center my-6">
+        <button
+          class="flex justify-center items-center px-5 py-2 border border-black rounded-3xl gap-5"
+        >
+          Read more article
+          <span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="{1.5}"
+              stroke="currentColor"
+              class="w-6 h-6 flex items-end justify-end"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+              /></svg
+          ></span>
+        </button>
+      </section>
+    </section>
+
+    <section>
+      <section class="w-full">
+        <section class="mt-5 relative flex flex-col justify-center w-full">
+          <img
+            src="./assets/Data-for-Net-Zero_2880X1800.webp"
+            alt="image1"
+            class="w-full"
+          />
+
+          <div
+            class="bg-white p-5 w-fit rounded-full mx-auto -mt-10 h-fit shadow-md"
+          >
+            <div class="flex justify-center items-center gap-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="{1.5}"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M15.75 19.5L8.25 12l7.5-7.5"
+                />
+              </svg>
+              <p class="h-4 w-4 border bg-black rounded-full"></p>
+              <p class="h-4 w-4 border rounded-full"></p>
+              <p class="h-4 w-4 border rounded-full"></p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="{1.5}"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                />
+              </svg>
+            </div>
+          </div>
+        </section>
+
+        <div
+          class="bg-violet px-5 shadow-2xl flex flex-col justify-between -mt-10 py-14 pb-7 w-full text-white h-96"
+        >
+          <div>
+            <h2 class="text-xl py-1">
+              ArcelorMittal uses data and analytics to pursue energy efficiency
+            </h2>
+            <p class="w-80">
+              Discover a year of innovation, sustainability, diverse talent, and
+              more
+            </p>
+            <img src="./assets/Logo_Capgemini_Engineering.svg" />
+          </div>
+          <section class="flex justify-start my-6">
+            <button
+              class="flex justify-center items-center px-5 py-2 border border-white rounded-3xl gap-5"
+            >
+              More Insight
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="{1.5}"
+                  stroke="currentColor"
+                  class="w-6 h-6 flex items-end justify-end"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+                  /></svg
+              ></span>
+            </button>
+          </section>
+        </div>
+      </section>
+    </section>
+
+    <footer class="bg-gray-200 mt-10 py-10 px-5 flex flex-col gap-5">
+      <div class="border-b border-gray-500 py-4 flex flex-col gap-3">
+        <img
+          src="https://prod.ucwe.capgemini.com/wp-content/themes/capgemini2020/assets/images/mobile-logo.svg"
+          class="w-44"
+        />
+
+        <ul class="flex flex-col gap-4">
+          <li>Investors</li>
+          <li>Investors</li>
+          <li>Investors</li>
+          <li>Investors</li>
+          <li>Investors</li>
+          <li>Investors</li>
+          <li>Investors</li>
+        </ul>
+      </div>
+      <div class="flex flex-col gap-4 border-b border-gray-500 pb-5">
+        <h1>Our brand</h1>
+        <img
+          src="https://prod.ucwe.capgemini.com/wp-content/themes/capgemini2020/assets/images/mobile-logo.svg"
+          class="w-44"
+        />
+        <img
+          src="https://prod.ucwe.capgemini.com/wp-content/themes/capgemini2020/assets/images/mobile-logo.svg"
+          class="w-44"
+        />
+        <img
+          src="https://prod.ucwe.capgemini.com/wp-content/themes/capgemini2020/assets/images/mobile-logo.svg"
+          class="w-44"
+        />
+      </div>
+
+      <div class="text-center">
+        <p>2022 Capgemini. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
 </html>
