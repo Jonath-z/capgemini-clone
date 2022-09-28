@@ -15,10 +15,72 @@
       />
 
       <nav
-        class="fixed top-0 left-0 w-full flex justify-between items-center p-2 bg-gradient-to-b from-black via-transparent to-transparent h-fit"
+        class="fixed top-0 left-0 w-full flex justify-between items-center p-2 bg-gradient-to-b from-black via-transparent to-transparent h-fit lg:p-5"
       >
-        <img src="./assets/logo-white.svg" />
-        <div class="flex gap-3 items-center">
+        <ul
+          class="hidden xl:flex absolute top-0 text-white gap-5 my-5 justify-end w-full pr-[5rem]"
+        >
+          <li>Contact Us</li>
+          <li>Investors</li>
+          <li>
+            <p class="flex gap-3 justify-items-end">
+              Global | EN
+              <span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="{1.5}"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418"
+                  />
+                </svg>
+              </span>
+            </p>
+          </li>
+        </ul>
+        <img src="./assets/logo-white.svg" class="xl:hidden" />
+        <div class="hidden xl:flex justify-between w-full px-10 h-fit mt-9">
+          <div class="flex gap-8">
+            <img src="./assets/logo-white.svg" class="block" />
+            <ul class="text-white flex justify-between gap-5">
+              <li>Insight</li>
+              <li>Idustries</li>
+              <li>Services</li>
+              <li>Careers</li>
+              <li>News</li>
+              <li>About us</li>
+            </ul>
+          </div>
+          <ul class="text-white flex gap-5">
+            <li class="flex flex-col gap-3">
+              <span class="flex gap-4">
+                Search
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="{1.5}"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+                  />
+                </svg>
+              </span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="flex gap-3 items-center xl:hidden">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -50,12 +112,12 @@
         </div>
       </nav>
       <div
-        class="mx-auto flex justify-center items-center lg:justify-start lg:mx-32"
+        class="mx-auto flex justify-center items-center lg:justify-start lg:ml-72"
       >
         <div
-          class="flex flex-col p-7 bg-primary-blue/90 rounded-md shadow-md z-30 absolute lg:w-[50%] lg:-mt-80 -mt-3 h-64 justify-center w-[80%] mx-auto text-white"
+          class="flex flex-col p-7 bg-primary-blue/90 rounded-md shadow-md z-30 absolute lg:w-[34%] lg:py-20 lg:-mt-80 -mt-3 h-64 justify-center w-[80%] mx-auto text-white"
         >
-          <h1 class="text-2xl font-bold">AUTHORS OF CHANGE</h1>
+          <h1 class="text-2xl font-bold lg:text-4xl">AUTHORS OF CHANGE</h1>
           <p class="text-xl py-4">Making the world more inclusive with words</p>
         </div>
       </div>
